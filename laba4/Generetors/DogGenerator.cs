@@ -18,9 +18,9 @@ public class DogGenerator
         "Кате"
     };
 
-    private IWorkerProducerManeger<Puppy, AdultDog> _workerCreater;
+    private IAdultFactoryManeger _workerCreater;
 
-    public DogGenerator(IWorkerProducerManeger<Puppy, AdultDog> workerCreater)
+    public DogGenerator(IAdultFactoryManeger workerCreater)
     {
         _workerCreater = workerCreater;
     }

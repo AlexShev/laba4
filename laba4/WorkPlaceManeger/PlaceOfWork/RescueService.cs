@@ -6,12 +6,12 @@ public class RescueService : WorkPlace
 {
     public override string Name => "Служба спасения";
 
-    public RescueService()
+    public override bool CanEmploy(laba4.Decorators.AdultDog worker)
     {
-        AddProfession(RescueServiceDog.Instens);
+        return worker.IDofSpecialty == laba4.Professions.RescueServiceDog.Instens.ID;
     }
 
-    protected override string SimulateWorkingDay(IDictionary<Guid, IList<IWorker>> workers)
+    protected override string SimulateWorkingDay(IList<laba4.Decorators.AdultDog> workers)
     {
         return $"{Name}:\n" + base.SimulateWorkingDay(workers);
     }

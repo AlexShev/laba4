@@ -53,8 +53,6 @@ public class FarmDog
         // очистка вальеров
         CleaningCase();
 
-
-
         // тренеровка щенят
         Training();
 
@@ -193,7 +191,6 @@ public class FarmDog
 
     private void Working()
     {
-        HashSet<Guid> idProfessions = new();
         List<AdultDog> unemployedAdultDog = new List<AdultDog>();
 
         foreach (var dogCase in _adultDogs)
@@ -207,14 +204,10 @@ public class FarmDog
                     unemployedAdultDog.Add(adultDog);
                     dogCase.SetDog(adultDog);
                 }
-                else
-                {
-                    idProfessions.Add(adultDog.IDofSpecialty);
-                }
             }
         }
 
-        StringBuilder builder = new StringBuilder("Безработные собаки:\n");
+        StringBuilder builder = new StringBuilder("Безработные собаки (и те кто не смог сегодня работать):\n");
 
         foreach (var unemploed in unemployedAdultDog)
         {
@@ -238,13 +231,7 @@ public class FarmDog
             
             workPlace.CloseWorkPlace();
 
-            foreach (var workers in workersFromWork)
-            {
-                if (idProfessions.Contains(workers.Key))
-                {
-                    workted.AddRange(workers.Value.Cast<AdultDog>());
-                }
-            }
+            workted.AddRange(workersFromWork);
         }
 
         PutDogsToCase(workted, _adultDogs);

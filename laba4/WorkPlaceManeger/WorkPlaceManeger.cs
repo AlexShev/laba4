@@ -1,4 +1,5 @@
-﻿using laba4.PlaceOfWork;
+﻿using laba4.Decorators;
+using laba4.PlaceOfWork;
 
 namespace laba4.WorkPlaceManeger;
 
@@ -11,17 +12,12 @@ public class WorkPlaceManeger : IWorkPlaceManeger
         _workPlaceList = workPlaceList;
     }
 
-    public void AddWorkPlace(WorkPlace workPlace)
-    {
-        _workPlaceList.Add(workPlace);
-    }
-
     public IList<WorkPlace> GetAllWorkPlaces()
     {
         return _workPlaceList;
     }
 
-    public bool PutToWork(IWorker worker)
+    public bool PutToWork(AdultDog worker)
     {
         foreach (WorkPlace workPlace in _workPlaceList)
         {

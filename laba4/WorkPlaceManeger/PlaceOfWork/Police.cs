@@ -6,12 +6,12 @@ public class Police : WorkPlace
 {
     public override string Name => "Полицейский участок";
 
-    public Police()
+    public override bool CanEmploy(laba4.Decorators.AdultDog worker)
     {
-        AddProfession(PoliceDog.Instens);
+        return worker.IDofSpecialty == laba4.Professions.PoliceDog.Instens.ID;
     }
 
-    protected override string SimulateWorkingDay(IDictionary<Guid, IList<IWorker>> workers)
+    protected override string SimulateWorkingDay(IList<laba4.Decorators.AdultDog> workers)
     {
         return $"{Name}:\n" + base.SimulateWorkingDay(workers);
     }

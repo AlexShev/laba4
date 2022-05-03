@@ -11,4 +11,9 @@ public class ConsoleLoger : ILoger
     {
         Console.WriteLine();
     }
+
+    public void Close()
+    {
+
+    }
 }
