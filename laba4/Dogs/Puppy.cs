@@ -2,7 +2,7 @@
 
 namespace laba4;
 
-public class Puppy : Dog, IWorkable
+public class Puppy : Dog
 {
     public const int MAX_AGE = 1;
     public const int ENERGY_CONSUPTION = 50;
