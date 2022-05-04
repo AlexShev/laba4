@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="laba4.Decorators.AdultDog" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQAAAAEAAgCAAAAAQAAAQAAAAAAAEAAAAA=</HashCode>
+      <FileName>Dogs\Decorators\AdultDog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="laba4.Decorators.ImprovedDog" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEACAgAAEgEEAAAQAAAAAAAAAAAABAQAAAAA=</HashCode>
+      <FileName>Dogs\Decorators\ImprovedDog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="laba4.Decorators.OldDog" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAEEAAAA=</HashCode>
+      <FileName>Dogs\Decorators\OldDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Decorators.PoliceDog" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dogs\Decorators\PoliceDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Decorators.RescueServiceDog" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dogs\Decorators\RescueServiceDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Decorators.UnemployedDog" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dogs\Decorators\UnemployedDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Dog" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEASAgAAEgMEAIEQAAAQAAAAAAAABIQAAAAA=</HashCode>
+      <FileName>Dogs\Dog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="laba4.Puppy" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAEAAgAAAAAEAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Dogs\Puppy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Logers.ConsoleLoger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Logers\ConsoleLoger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.Logers.FileLoger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>Logers\FileLoger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.FarmDogs.Feader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FarmDogs\Feaders\Feader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.FarmDogs.Trainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FarmDogs\Trainers\Trainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.FarmDogs.DogCase&lt;T&gt;" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAgAAAAAAAAAAAAAAAASAAAAEAAAAAAABAAAAQAA=</HashCode>
+      <FileName>FarmDogs\DogCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.FarmDogs.FarmDog" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAgAAAAAwAAAggAADAAAAECEAAAAAABQIAIQADAA=</HashCode>
+      <FileName>FarmDogs\FarmDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.FarmDogs.TrainingPark" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FarmDogs\TrainingPark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.FarmDogs.Veterinarians.SimpleVeterinarian" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>FarmDogs\Veterinarians\SimpleVeterinarian.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.Generators.DogGenerator" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAQAECAAABACAAAAAAAAAAEIBAAAAAAAAAAAAE=</HashCode>
+      <FileName>Generetors\DogGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Professions.PoliceDog" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Professions\PoliceDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Professions.Profession" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEgAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Professions\Profession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Professions.RescueServiceDog" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Professions\RescueServiceDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.Professions.UnemployedDog" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Professions\UnemployedDog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.PlaceOfWork.Police" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkPlaceManeger\PlaceOfWork\Police.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.PlaceOfWork.RescueService" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkPlaceManeger\PlaceOfWork\RescueService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.PlaceOfWork.WorkPlace" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAAAAAAAEgAAAAQQAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkPlaceManeger\PlaceOfWork\WorkPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba4.WorkPlaceManeger.WorkPlaceManeger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAgA=</HashCode>
+      <FileName>WorkPlaceManeger\WorkPlaceManeger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.ProfessionManegers.PoliceDogFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAA=</HashCode>
+      <FileName>ProfessionManegers\Produsers\PoliceDogFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.ProfessionManegers.RescueServiceDogFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAA=</HashCode>
+      <FileName>ProfessionManegers\Produsers\RescueServiceDogFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.ProfessionManegers.UnemployedDogFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAA=</HashCode>
+      <FileName>ProfessionManegers\Produsers\UnemployedDogFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.ProfessionManegers.RandomAdultFactoryManeger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAE=</HashCode>
+      <FileName>ProfessionManegers\RandomAdultFactoryManeger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="laba4.StringFormaters.StringFormater" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringFormaters\StringFormater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="laba4.IDog" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEACAgAAAAMEAAwQAAAAAAAEAAAABEQAAIDA=</HashCode>
+      <FileName>Dogs\IDog.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.IWorker" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQAgAAAAAAAAAAAAQAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkPlaceManeger\PlaceOfWork\Worker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.Logers.ILoger" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Logers\ILoger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.FarmDogs.IFeader" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FarmDogs\Feaders\IFeader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.FarmDogs.ITrainer" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FarmDogs\Trainers\ITrainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.FarmDogs.Veterinarians.IVeterinarian" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>FarmDogs\Veterinarians\IVeterinarian.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.WorkPlaceManeger.IWorkPlaceManeger" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>WorkPlaceManeger\IWorkPlaceManeger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.ProfessionManegers.IAdultDogFactory" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAA=</HashCode>
+      <FileName>ProfessionManegers\Produsers\IAdultDogFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="laba4.ProfessionManegers.IAdultFactoryManeger" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProfessionManegers\IAdultFactoryManeger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
